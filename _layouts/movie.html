@@ -1,0 +1,16 @@
+---
+layout: default
+title_prefix: "Review:"
+---
+<div class="highlight">
+    "{{ page.highlight }}"
+</div>
+<div class="author_info">
+    Reviewed on <span class="posted_at">{{ page.date | date: "%B %d, %Y" }}</span> &bull;
+    <span class="rating"><span class="fingers_up">{{ page.num_fingers_up }}</span> finger{% if page.num_fingers_up != 1 %}s{% endif %} up</span>
+</div>
+
+<div class="review-body">
+    <p class="intro">Here are my thoughts on this movie:</p>
+    {{ content }}
+</div>

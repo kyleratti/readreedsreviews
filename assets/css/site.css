@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 2em;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+h1 small {
+    
+}
+
+header h1 {
+    margin-top: 0.2em;
+    margin-bottom: 0;
+    font-size: 3em;
+}
+
+#banner {
+    background-image: url(/assets/img/reed_halloween.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 225px;
+    min-height: 300px;
+    display: inline-block;
+}
+
+nav {
+    margin: 1.5em;
+}
+
+nav a {
+    text-decoration: none;
+    color: palegoldenrod;
+    margin: 0.35em;
+    border: 2px solid palegoldenrod;
+    padding: 0.55em 1.3em;
+    background-color: darkblue;
+}
+
+nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+nav .active {
+    color: yellow;
+    font-weight: bold;
+}
+
+.white {
+    color: white;
+}
+
+.reed {
+    color: yellow;
+    font-weight: bold;
+}
+
+.movie {
+    font-style: italic;
+}
+
+.quote {
+    background-color: dimgray;
+    padding: 0.4em;
+}
+
+#reviews {
+    list-style-type: none;
+}
+
+#reviews a {
+    color: palegoldenrod;
+}
+
+#reviews a:hover {
+    color: yellow;
+}
+
+#title {
+    margin-bottom: 0;
+}
+
+.highlight {
+    font-style: italic;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.author_info {
+    color: #ccc;
+    font-size: 0.7em;
+    padding-bottom: 1em;
+    border-bottom: 0.3em solid white;
+}
+
+.fingers_up {
+    font-weight: bold;
+    color: yellow;
+}
+
+.posted_at {
+    font-weight: bold;
+    color: white;
+}
+
+.content {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1em;
+    background-color: darkblue;
+}
+
+.content h1 {
+    margin-top: 0;
+}
+
+.review-body {
+    text-align: left;
+    font-size: 0.85em;
+}
+
+.review-body .intro {
+    text-align: center;
+}
