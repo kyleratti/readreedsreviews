@@ -13,7 +13,7 @@ Dorothy keeps stomping her feet like this: \*stomping feet*.
 
 The scarecrow needs a brain because he's a real dingus!
 
-## My favorite Song
+## My Favorite Song
 The one where, like, _"ding dong the wicked witch is dead!"_
 
 # See ya next time!
